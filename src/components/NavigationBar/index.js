@@ -23,7 +23,7 @@ import {
 
 class NavigationBar extends Component {
   renderTabItems = () => (
-    <ThemeAndVideoContext.COnsumer>
+    <ThemeAndVideoContext.Consumer>
       {value => {
         const {isDarkTheme, activeTab, changeTab} = value
         const bgColor = isDarkTheme ? '#231f20' : '#f1f5f9'
@@ -157,7 +157,7 @@ class NavigationBar extends Component {
           </NavBar>
         )
       }}
-    </ThemeAndVideoContext.COnsumer>
+    </ThemeAndVideoContext.Consumer>
   )
 
   render() {

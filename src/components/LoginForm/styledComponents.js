@@ -31,7 +31,7 @@ export const LoginButton = styled.button`
   font-family: 'Roboto';
   font-size: 15px;
   height: 30px;
-  color: #fff;
+  color: #ffffff;
   margin-top: 20px;
 `
 export const SubmitError = styled.p`
